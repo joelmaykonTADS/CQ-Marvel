@@ -1,5 +1,6 @@
 dependencies:
   '@material-ui/core': 4.11.0_react-dom@16.13.1+react@16.13.1
+  '@material-ui/icons': 4.9.1_64fe165cdb3bb1449f67ef4ad817869b
   '@testing-library/jest-dom': 4.2.4
   '@testing-library/react': 9.5.0_react-dom@16.13.1+react@16.13.1
   '@testing-library/user-event': 7.2.1
@@ -1529,6 +1530,25 @@ packages:
         optional: true
     resolution:
       integrity: sha512-bYo9uIub8wGhZySHqLQ833zi4ZML+XCBE1XwJ8EuUVSpTWWG57Pm+YugQToJNFsEyiKFhPh8DPD0bgupz8n01g==
+  /@material-ui/icons/4.9.1_64fe165cdb3bb1449f67ef4ad817869b:
+    dependencies:
+      '@babel/runtime': 7.11.2
+      '@material-ui/core': 4.11.0_react-dom@16.13.1+react@16.13.1
+      react: 16.13.1
+      react-dom: 16.13.1_react@16.13.1
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    peerDependencies:
+      '@material-ui/core': ^4.0.0
+      '@types/react': ^16.8.6
+      react: ^16.8.0
+      react-dom: ^16.8.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    resolution:
+      integrity: sha512-GBitL3oBWO0hzBhvA9KxqcowRUsA0qzwKkURyC8nppnC3fw54KPKZ+d4V1Eeg/UnDRSzDaI9nGCdel/eh9AQMg==
   /@material-ui/styles/4.10.0_react-dom@16.13.1+react@16.13.1:
     dependencies:
       '@babel/runtime': 7.11.2
@@ -11756,6 +11776,7 @@ packages:
       integrity: sha512-AX3Zw5iPruN5ie6xGRIDgqkT+ZhnRlZMLMHAs8tg7nRruy2Nb+i5o9bwghAogtM08q1dpr2LVoS8KSTMYpWXUw==
 specifiers:
   '@material-ui/core': ^4.11.0
+  '@material-ui/icons': ^4.9.1
   '@testing-library/jest-dom': ^4.2.4
   '@testing-library/react': ^9.3.2
   '@testing-library/user-event': ^7.1.2

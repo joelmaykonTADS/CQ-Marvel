@@ -1,25 +1,22 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
-import {Link} from 'react-router-dom'
+import Avatar from '@material-ui/core/Avatar';
+
 const useStyles = makeStyles((theme) => ({
   root: {
+    display: 'flex',
     '& > *': {
       margin: theme.spacing(1),
     },
   },
 }));
 
-export default function OutlinedButtons() {
+export default function ImageAvatars({avatar}) {
   const classes = useStyles();
+
   return (
     <div className={classes.root}>
-      <Link to="/tabela">
-        <Button  variant="outlined" color="primary">
-          Próximo
-      </Button>
-      </Link>
-     
+      <Avatar alt="Remy Sharp" src={avatar} />    
     </div>
   );
 }
